@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 170, 255);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-indent: 50px;
+    background-color: rgb(0, 213, 255);
+    border-radius: 20px;
+    border-color: bisque;
+    font-variant-position: unset;
+    font-kerning: var(2000px);
+}
+
+h2 {font-family: Arial, Helvetica, sans-serif;
+font-size: larger;
+background-color: bisque;
+vertical-align: top;
+border-radius: 180px;
+border-color: bisque;
+text-align: center;
+}
+
+h3 {font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: bisque;
+    vertical-align: top;
+    border-radius: 180px;
+    border-color: bisque;
+    text-indent: 95px;
+}
+
+p {
+    font-family: verdana;
+    font-size: medium;
+    font-palette: white;
+    background-color: rgb(0, 213, 255);
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-indent: 50px;
+    background-color: bisque;
+}
+
+head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    width: 200px;
+    height: 25px;
+    background: rgb(0, 255, 157);
+    transition: width 2s;
+  }
+  div:hover {
+    width: 900px;
+  }
+
+  @media screen and (min-width: 500px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 200px;}
+  }
